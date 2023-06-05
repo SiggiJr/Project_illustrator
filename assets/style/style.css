@@ -135,6 +135,9 @@ h2 + p {
 
 .three_in_a_row {
   margin-top: 95.55px;
+}
+
+.three_in_a_row > h2 {
   text-align: center;
 }
 
@@ -168,4 +171,129 @@ h2 + p {
 
 .picture3 {
   background-image: url("../img/illustration6.png");
+}
+
+.examples {
+  padding-top: 136.05px;
+  text-align: center;
+}
+
+.examples > p {
+  width: 834.87px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.examples div {
+  margin-top: 62.09px;
+}
+.examples div:first-of-type {
+  margin-top: 36.2px;
+}
+
+.examples img {
+  width: 576px;
+  object-fit: cover;
+}
+
+.examples img:first-of-type {
+  margin-right: 61.39px;
+}
+
+.membership_area {
+  padding-top: 128.84px;
+  text-align: center;
+}
+
+.membership_area > p {
+  width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 71.09px;
+}
+
+.membership_container {
+  background-color: #55acee1a;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 63.7px;
+  padding-bottom: 47.4px;
+}
+
+.membership_container > h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 80px;
+  font-weight: 700;
+  padding: 44.59px 0;
+}
+
+.duration {
+  color: #7e7e7e;
+}
+
+.abo_declaration {
+  list-style-type: none;
+  padding-top: 12.73px;
+}
+
+.become_member_button {
+  margin-top: 15.84px;
+  display: inline-block;
+  background-color: #55acee;
+  border-radius: 10px;
+  padding: 16px 48px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* # === FOOTER === */
+footer {
+  padding-top: 63.7px;
+  text-align: center;
+  font-size: 19.2px;
+}
+.contact_area > p {
+  padding-bottom: 14.4px;
+}
+
+.contact_area > p:last-of-type {
+  padding-bottom: 0;
+}
+
+.contact_links > li {
+  padding-top: 14.4px;
+  padding-bottom: 14.4px;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.contact_links > li > a {
+  text-decoration: none;
+}
+
+.contact_links li:nth-of-type(1) > a {
+  color: #000;
+}
+
+.contact_links li:nth-of-type(2) > a {
+  color: #fcaf45;
+}
+
+.contact_links li:nth-of-type(3) > a {
+  color: #55acee;
+}
+
+.contact_links li:nth-of-type(4) > a {
+  color: #c4302b;
+}
+
+/* # === HOVER === */
+
+.hover:hover {
+  box-shadow: 0 0 10px darkgray;
 }
